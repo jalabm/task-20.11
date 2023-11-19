@@ -1,0 +1,38 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+html {
+    font-family: 'Open Sans', sans-serif;
+
+}
+.container{
+    width: 1146px;
+    padding:  10px 1.932px;
+    margin: auto;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .right-side{
+    display: flex;
+    align-items: center;
+}
+.container .right-side .navigation-items{
+    display: flex;
+    column-gap: 32px;
+}
+.container .right-side .navigation-items a{
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.container .right-side .navigation-items a:hover{
+color: blue;
+}
